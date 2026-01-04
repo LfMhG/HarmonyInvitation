@@ -119,10 +119,8 @@ body.vibrant {background: linear-gradient(270deg,#7289DA,#99AAB5,#5C6BC0,#8E99F3
     background: linear-gradient(90deg, #0ff, #f0f, #ff0);
     background-size: 200% 200%;
     animation: neonButton 5s ease infinite;
-    box-shadow: 0 0 20px #fff, 0 0 40px #f0f, 0 0 60px #fff;
+    box-shadow: 0 0 20px #0ff, 0 0 40px #f0f, 0 0 60px #ff0;
     color: #fff;
-    opacity:0;
-    animation: fadeIn 1s ease forwards 1s;
 }
 @keyframes neonBG {0% {background-position:0% 50%;}50% {background-position:100% 50%;}100% {background-position:0% 50%;}}
 @keyframes neonButton {0% {background-position:0% 50%;}50% {background-position:100% 50%;}100% {background-position:0% 50%;}}
@@ -133,13 +131,12 @@ body.vibrant {background: linear-gradient(270deg,#7289DA,#99AAB5,#5C6BC0,#8E99F3
     animation: softButton 6s ease infinite;
     box-shadow: 0 8px 20px rgba(255,255,255,0.4);
     color: #333;
-    opacity:0;
-    animation: fadeIn 1s ease forwards 1s;
 }
 @keyframes softBG {0%{background-position:0% 50%;}50%{background-position:100% 50%;}100%{background-position:0% 50%;}}
 @keyframes softButton {0%{background-position:0% 50%;}50%{background-position:100% 50%;}100%{background-position:0% 50%;}}
+
 .discord-button.vibrant {
-position: relative;
+        position: relative;
         display: inline-block;
         padding: 20px 60px;
         font-size: 1.5em;
@@ -154,8 +151,6 @@ position: relative;
         box-shadow: 0 8px 20px rgba(0,0,0,0.3);
         transition: transform 0.3s, box-shadow 0.3s;
         text-decoration: none;
-        opacity:0;
-        animation: fadeIn 1s ease forwards 1s;
     }
 
 .card.neon {background: rgba(255,255,255,0.05); color:#fff;}
